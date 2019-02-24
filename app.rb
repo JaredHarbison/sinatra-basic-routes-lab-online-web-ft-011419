@@ -11,11 +11,11 @@ class App < Sinatra::Base
   end
 
   get '/hometown' do
-    "I'm from Paris"
+    "My hometown is Paris"
   end
 
   get '/favorite-song' do 
-    "And my favorite song is Friday"
+    "My favorite song is Friday"
   end
 
 end
